@@ -373,12 +373,12 @@ public final class Option {
         /**
          * Default blog title.
          */
-        public static final String DEFAULT_BLOG_TITLE = "Solo 示例";
+        public static final String DEFAULT_BLOG_TITLE = "影范";
 
         /**
          * Default blog subtitle.
          */
-        public static final String DEFAULT_BLOG_SUBTITLE = "Java 开源博客";
+        public static final String DEFAULT_BLOG_SUBTITLE = "我的文章";
 
         /**
          * Default skin directory name.
@@ -405,17 +405,17 @@ public final class Option {
         /**
          * Default notice board.
          */
-        public static final String DEFAULT_NOTICE_BOARD = "Open Source, Open Mind, <br/>Open Sight, Open Future!";
+        public static final String DEFAULT_NOTICE_BOARD = "爱电影, <br/>爱影范!";
 
         /**
          * Default meta keywords..
          */
-        public static final String DEFAULT_META_KEYWORDS = "Solo,Java 博客,开源";
+        public static final String DEFAULT_META_KEYWORDS = "公众号:changszixun";
 
         /**
          * Default meta description..
          */
-        public static final String DEFAULT_META_DESCRIPTION = "An open source blog with Java. Java 开源博客";
+        public static final String DEFAULT_META_DESCRIPTION = "An open source blog with Java. ";
 
         /**
          * Default HTML head to append.

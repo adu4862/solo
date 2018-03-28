@@ -88,6 +88,6 @@ public class ErrorProcessorTestCase extends AbstractTestCase {
         dispatcherServlet.service(request, response);
 
         final String content = stringWriter.toString();
-        Assert.assertTrue(StringUtils.contains(content, "<title>Solo 示例 - 403 Forbidden!</title>"));
+        Assert.assertTrue(StringUtils.contains(content, "<title>影范子 - 403 Forbidden!</title>"));
     }
 }

@@ -312,7 +312,7 @@ public class ArticleProcessorTestCase extends AbstractTestCase {
         dispatcherServlet.service(request, response);
 
         final String content = stringWriter.toString();
-        Assert.assertTrue(StringUtils.contains(content, "Solo 示例</title>"));
+        Assert.assertTrue(StringUtils.contains(content, "影范子</title>"));
     }
 
     /**
@@ -412,6 +412,6 @@ public class ArticleProcessorTestCase extends AbstractTestCase {
         dispatcherServlet.service(request, response);
 
         final String content = stringWriter.toString();
-        Assert.assertTrue(StringUtils.contains(content, "Solo 示例") || StringUtils.isBlank(content));
+        Assert.assertTrue(StringUtils.contains(content, "影范子") || StringUtils.isBlank(content));
     }
 }

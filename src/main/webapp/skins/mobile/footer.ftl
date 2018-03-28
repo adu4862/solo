@@ -2,22 +2,27 @@
 <div id="footer">
     <center>
         <div id="wptouch-switch-link">
-            <script type="text/javascript">function switch_delayer() { location.reload();}</script>${mobileLabel} <a id="switch-link" onclick="wptouch_switch_confirmation('normal');" href="javascript:void(0)"></a>		</div>
+            <script type="text/javascript">function switch_delayer() {
+                location.reload();
+            }</script>${mobileLabel} <a id="switch-link" onclick="wptouch_switch_confirmation('normal');"
+                                        href="javascript:void(0)"></a></div>
     </center>
     <p><span style="color: gray;">&copy; ${year}</span> - <a href="${servePath}">${blogTitle}</a>${footerContent}</p>
-    <p>Powered by <a href="https://b3log.org" target="_blank">B3log 开源</a> • <a href="https://solo.b3log.org" target="_blank">Solo</a> ${version},
-        Theme <a rel="friend" href="https://github.com/b3log/solo-skins" target="_blank">mobile</a>
-        by <a rel="friend" href="http://vanessa.b3log.org" target="_blank">Vanessa</a></p>
+    <#--<p>Powered by <a href="https://b3log.org" target="_blank">B3log 开源</a> • <a href="https://solo.b3log.org"-->
+                                                                                <#--target="_blank">Solo</a> ${version},-->
+        <#--Theme <a rel="friend" href="https://github.com/b3log/solo-skins" target="_blank">mobile</a>-->
+        <#--by <a rel="friend" href="http://vanessa.b3log.org" target="_blank">Vanessa</a></p>-->
 </div>
 <script type="text/javascript" src="${staticServePath}/js/lib/jquery/jquery.min.js" charset="utf-8"></script>
-<script type="text/javascript" src="${staticServePath}/js/common${miniPostfix}.js?${staticResourceVersion}" charset="utf-8"></script>
+<script type="text/javascript" src="${staticServePath}/js/common${miniPostfix}.js?${staticResourceVersion}"
+        charset="utf-8"></script>
 <script type="text/javascript">
     var latkeConfig = {
         "servePath": "${servePath}",
         "isLoggedIn": "${isLoggedIn?string}",
         "staticServePath": "${staticServePath}"
     };
-    
+
     var Label = {
         "skinDirName": "${skinDirName}",
         "em00Label": "${em00Label}",
@@ -36,10 +41,10 @@
         "em13Label": "${em13Label}",
         "em14Label": "${em14Label}"
     };
-    
+
     $(document).ready(function () {
         Util.init();
-    
+
         var toggleArchive = function (it) {
             var $it = $(it);
             $it.next().slideToggle(260, function () {
@@ -52,6 +57,6 @@
             });
         }
     });
-    
+
 </script>
 ${plugins}
